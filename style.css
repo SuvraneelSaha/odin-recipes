@@ -1,0 +1,87 @@
+body {
+  background: #111827;
+  color: #fff;
+  overflow: auto;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+
+#heading{
+  text-align: center;
+  color: rgb(255, 164, 85);
+  font-family:  'Potta One', cursive;
+}
+.main {
+  text-align: center;
+
+  border-color: rgb(255, 164, 85);
+
+  border-style: solid;
+  
+  border-width: 5px;
+  
+  width: 600px;
+  
+  margin: auto;
+  
+  color: #fff;
+
+  border-radius: 30px;
+}
+
+ul {
+  list-style: none;
+  font-size: 21px;
+  color: rgb(255, 164, 85);
+  font-family: 'Raleway', sans-serif;
+}
+
+li{
+  padding: 20px;
+  font-weight: bold;
+}
+
+.photos{
+  
+  height: 200px;
+  width: 300px;
+  border-radius: 50%;
+
+}
+/* .gajar{
+ 
+} */
+
+.footer{
+  
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* background-color: red; */
+  color: white;
+  text-align: left;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(255, 164, 85)
+}
+
+/* visited link */
+a:visited {
+  color: rgb(255, 164, 85)
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
