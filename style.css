@@ -8,12 +8,25 @@ body::-webkit-scrollbar{
   display: none;
 }
 
+#heading{
+  font-size: 50px;
+}
+
+#header:hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 164, 85);
+}
 
 #heading{
   text-align: center;
   color: rgb(255, 164, 85);
   font-family:  'Potta One', cursive;
 }
+
+#gif-description{
+  font-size: large;
+}
+
 .main {
   text-align: center;
 
@@ -43,7 +56,9 @@ li{
   padding: 20px;
   font-weight: bold;
 }
-
+a {
+  text-decoration: none;
+}
 .photos{
   
   height: 200px;
@@ -85,3 +100,28 @@ a:hover {
 a:active {
   color: blue;
 }
+
+.recipe{
+  cursor: pointer;
+  font-size: 21px;
+  font-family:'Potta One', cursive; ;
+}
+
+#Ramen{
+  margin: auto;
+  text-align: center;
+  color: rgb(255, 164, 85);
+  font-family:'Potta One', cursive;
+  
+ 
+}
+
+#gif{
+  border-radius: 50px;
+  padding: 10px;
+  width: 30%;
+  border-style: ridge;
+  margin: 5px;
+  border-color: rgb(255, 164, 85);
+}
+
