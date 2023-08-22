@@ -1,0 +1,169 @@
+body{
+  background-color: #111827;
+  color: #fff;
+  overflow: auto;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+a{
+  text-decoration: none;
+}
+
+#recipe-name{
+ color: rgb(255, 164, 85)
+}
+
+#Heading{
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Potta One', cursive;
+}
+
+#Header:hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 164, 85);
+}
+
+.photos{
+  text-align: center;
+  margin: auto;
+}
+
+.Biryani-photo{
+  height: 400px;
+  width: 500px;
+  border-radius: 100px;
+}
+
+#Heading-Paragraph{
+  margin: auto;
+  width: 600px;
+}
+
+#description{
+  color: rgb(255, 164, 85);
+  font-family: 'Potta One', cursive;
+  font-size: large;
+  text-align: center;
+}
+
+#Time-Servings{
+  margin: auto;
+  width: 50%;
+  border-style:groove;
+  border-width: 5px;
+  border-left-color: rgb(255, 164, 85);
+  border-right-color: rgb(255, 164, 85);
+  border-bottom: none;
+  border-top: none;
+  padding: 10px;
+  border-radius: 44px;
+}
+
+#Time-Servings-Description{
+  text-align: center;
+  font-size: 21px;
+  
+
+}
+
+#Time-Servings-Description-One{
+  text-align: center;
+ 
+  font-size: 21px;
+}
+
+#Time-Servings-Description-Two{
+  text-align: center;
+  
+  font-size: 21px;
+
+}
+
+#Ingredients{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  border: rgb(255, 164, 85) 5px groove ;
+  border-radius: 44px;
+  border-top: none;
+  border-bottom: none;
+  padding: 10px;
+  
+  
+}
+
+.Ingredients-List{
+  text-align: center;
+  
+  list-style-type: none;
+
+  font-size: 21px;
+}
+
+h3,h4{
+  color:rgb(255, 164, 85);
+  font-size: 30px;
+}
+
+#Instructions{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-size: 21px;
+  border-radius: 44px;
+  border-width: 5px;
+  border-style: groove;
+  border-color: rgb(255, 164, 85);
+  border-top: none;
+  border-bottom: none;
+  padding: 10px;
+
+}
+
+#Nutrition{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  border-radius: 44px;
+  border-style: groove;
+  border-width: 5px;
+  border-color: rgb(255, 164, 85);
+  padding: 10px;
+  border-top: none;
+  border-bottom: none;
+}
+
+.Nutrition-top{
+  font-size: 21px;
+  font-family: 'Potta One', cursive;
+}
+
+#table-chart{
+  margin: auto;
+  width: 50%;
+  font-size: 21px;
+  border-style:solid;
+  border-width: 5px;
+  padding: 10px;
+  border-color: rgb(255, 164, 85);
+}
+
+.column-name{
+  font-family: 'Potta One', cursive;
+  color: rgb(255, 164, 85);
+
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+  color: black;
+}
+
+#recipe-name:hover{
+  color: hotpink;
+}
+
+#recipe-name:active{
+  color: blue;
+}
